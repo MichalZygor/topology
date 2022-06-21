@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T07:12:39.605Z" agent="5.0 (Windows)" version="20.0.1" etag="WrunybyCc_S_aXeaZABF" type="github"><diagram id="rVhYzkmPLK4ILlOs3hnY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-21T07:31:32.446Z" agent="5.0 (Windows)" etag="e6ImO1u5W500H_KdfBCr" version="20.0.1" type="github">
+  <diagram id="rVhYzkmPLK4ILlOs3hnY" name="Page-1">
+    <mxGraphModel dx="920" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="682tP-kskeqQQ1ect5x5-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="260" width="37" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="682tP-kskeqQQ1ect5x5-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.veeam_repository;" vertex="1" parent="682tP-kskeqQQ1ect5x5-3">
+          <mxGeometry width="37" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="682tP-kskeqQQ1ect5x5-1" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#EF8F21;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.backup_replication;" vertex="1" parent="682tP-kskeqQQ1ect5x5-3">
+          <mxGeometry x="27" y="28" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="682tP-kskeqQQ1ect5x5-5" value="RedHat 8.2" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.linux_vm;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="682tP-kskeqQQ1ect5x5-6" value="MS Server 2016" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.windows_vm;" vertex="1" parent="1">
+          <mxGeometry x="550" y="400" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="682tP-kskeqQQ1ect5x5-7" value="RedHat 8.2" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.linux_vm;" vertex="1" parent="1">
+          <mxGeometry x="460" y="400" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="682tP-kskeqQQ1ect5x5-8" value="&lt;div&gt;MS Windows 2019&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.windows_vm;" vertex="1" parent="1">
+          <mxGeometry x="660" y="400" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="682tP-kskeqQQ1ect5x5-9" value="Mixed" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="28.000000000000004" height="28.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="682tP-kskeqQQ1ect5x5-10" value="PhotonOS" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="310" y="400" width="28.000000000000004" height="28.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="682tP-kskeqQQ1ect5x5-14" value="" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#00B336;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=block;endFill=1;startArrow=none;" edge="1" parent="1" source="682tP-kskeqQQ1ect5x5-9" target="682tP-kskeqQQ1ect5x5-2">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="490" y="350" as="sourcePoint" />
+            <mxPoint x="488.14" y="298" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="274" y="340" />
+              <mxPoint x="489" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="682tP-kskeqQQ1ect5x5-16" value="" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#00B336;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=block;endFill=1;startArrow=none;" edge="1" parent="1" source="682tP-kskeqQQ1ect5x5-10" target="682tP-kskeqQQ1ect5x5-2">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="550" y="340" as="sourcePoint" />
+            <mxPoint x="650" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="324" y="340" />
+              <mxPoint x="490" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="682tP-kskeqQQ1ect5x5-17" value="" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#00B336;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=block;endFill=1;startArrow=none;" edge="1" parent="1" source="682tP-kskeqQQ1ect5x5-5" target="682tP-kskeqQQ1ect5x5-2">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="640" y="300" as="sourcePoint" />
+            <mxPoint x="740" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="340" />
+              <mxPoint x="490" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="682tP-kskeqQQ1ect5x5-18" value="" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#00B336;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=block;endFill=1;startArrow=none;" edge="1" parent="1" source="682tP-kskeqQQ1ect5x5-7" target="682tP-kskeqQQ1ect5x5-2">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="560" y="350" as="sourcePoint" />
+            <mxPoint x="660" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="478" y="340" />
+              <mxPoint x="490" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="682tP-kskeqQQ1ect5x5-19" value="" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#00B336;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=block;endFill=1;startArrow=none;" edge="1" parent="1" source="682tP-kskeqQQ1ect5x5-6" target="682tP-kskeqQQ1ect5x5-2">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="640" y="330" as="sourcePoint" />
+            <mxPoint x="740" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="568" y="340" />
+              <mxPoint x="489" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="682tP-kskeqQQ1ect5x5-20" value="" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#00B336;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=block;endFill=1;startArrow=none;" edge="1" parent="1" source="682tP-kskeqQQ1ect5x5-8" target="682tP-kskeqQQ1ect5x5-2">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="650" y="240" as="sourcePoint" />
+            <mxPoint x="750" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="340" />
+              <mxPoint x="489" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
